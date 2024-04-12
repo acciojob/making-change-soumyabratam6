@@ -6,7 +6,7 @@ const makeChange = (c) => {
     let pennyValue = 0.01;
 
     // Convert the input to a number
-    const amount = parseFloat(c);
+    let amount = parseFloat(c);
 
     // Initialize variables to store the number of each coin
     let quarters = 0;
