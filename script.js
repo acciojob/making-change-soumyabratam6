@@ -1,10 +1,9 @@
 const makeChange = (c) => {
   // your name here
-   // Define the values of each coin
-    const quarterValue = 0.25;
-    const dimeValue = 0.10;
-    const nickelValue = 0.05;
-    const pennyValue = 0.01;
+   let quarterValue = 0.25;
+    let dimeValue = 0.10;
+    let nickelValue = 0.05;
+    let pennyValue = 0.01;
 
     // Convert the input to a number
     const amount = parseFloat(c);
